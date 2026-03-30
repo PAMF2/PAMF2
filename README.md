@@ -2,7 +2,7 @@
 
 # Pedro Afonso
 
-**ML Engineer · Medical AI · Retinal Screening**
+**ML Engineer · Medical AI · Retinal Screening @ Veredictos**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com)
 [![GitHub followers](https://img.shields.io/github/followers/PAMF2?style=flat&color=black)](https://github.com/PAMF2)
@@ -13,7 +13,7 @@
 
 Building AI systems at the intersection of **computer vision** and **medical diagnostics** — with a focus on making screening accessible and scalable.
 
-Currently developing **Veredictos Vision**, a retinal AI platform for diabetic retinopathy and related conditions.
+Currently developing **[Veredictos](https://github.com/PAMF2/veredictos-vision)**, a retinal AI platform for diabetic retinopathy and related conditions.
 
 ---
 
