@@ -32,7 +32,7 @@ I build systems that **learn to act, not just predict** — objective-driven lea
 
 | | Project | What |
 |---|---------|------|
-| 🏥 | **[Veredictos](https://www.veredictos.com/)** | Payments infrastructure + retinal AI — pilots with Prefeitura RJ (SUS) and Centro Carioca do Olho |
+| 🏥 | **[Veredictos](https://www.veredictos.com/)** | Retinal AI — pilots with Prefeitura RJ (SUS) and Centro Carioca do Olho |
 | 🤖 | **[OSA](https://github.com/PAMF2/OSA)** | Local-first AI orchestrator — Elixir/OTP, hot-reload skills, world-model loops |
 
 ---
