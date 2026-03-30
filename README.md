@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00d9ff&height=130&section=header&text=Pedro%20Afonso&fontSize=38&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
+<div align="center">
+<img src="./assets/banner.svg" width="900" alt="Pedro Afonso"/>
+</div>
 
 <div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=800&color=00D9FF&center=true&vCenter=true&width=650&height=40&lines=Building+Veredictos+%F0%9F%8F%A5+%C2%B7+PaymentsLine+%F0%9F%92%B3+%C2%B7+MIOSA+%F0%9F%A4%96;ML+Researcher+%C2%B7+RL+%C2%B7+Causal+AI+%C2%B7+Autonomous+Agents;1st+Place+%F0%9F%8F%86+CrewAI+Agentic+AI+Challenge+2025;Co-Founder+%40+MIOSA+%C2%B7+7k+downloads+in+3+days;Retinal+AI+%C2%B7+Payments+%C2%B7+Agent+Infrastructure)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=PAMF2&color=00d9ff&style=flat&label=profile+views)
 

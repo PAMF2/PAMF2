@@ -1,0 +1,183 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#0d1f2d"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#00d9ff;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00d9ff;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="glowText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="50%" style="stop-color:#00d9ff"/>
+      <stop offset="100%" style="stop-color:#ffffff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&amp;display=swap');
+
+      .name {
+        font-family: 'Inter', -apple-system, sans-serif;
+        font-size: 52px;
+        font-weight: 900;
+        letter-spacing: -1px;
+        fill: url(#glowText);
+        filter: url(#glow);
+        opacity: 0;
+        animation: fadeSlideUp 0.8s ease forwards 0.3s;
+      }
+      .role {
+        font-family: 'Inter', -apple-system, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        fill: #8b949e;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        opacity: 0;
+        animation: fadeSlideUp 0.8s ease forwards 0.7s;
+      }
+      .badge {
+        font-family: 'Inter', -apple-system, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        fill: #00d9ff;
+        opacity: 0;
+      }
+      .badge-1 { animation: fadePop 0.5s ease forwards 1.2s; }
+      .badge-2 { animation: fadePop 0.5s ease forwards 1.5s; }
+      .badge-3 { animation: fadePop 0.5s ease forwards 1.8s; }
+      .badge-4 { animation: fadePop 0.5s ease forwards 2.1s; }
+      .badge-rect {
+        fill: none;
+        stroke: #00d9ff;
+        stroke-width: 1;
+        rx: 4;
+        opacity: 0;
+      }
+      .badge-rect-1 { animation: fadePop 0.5s ease forwards 1.2s; }
+      .badge-rect-2 { animation: fadePop 0.5s ease forwards 1.5s; }
+      .badge-rect-3 { animation: fadePop 0.5s ease forwards 1.8s; }
+      .badge-rect-4 { animation: fadePop 0.5s ease forwards 2.1s; }
+      .scanline {
+        opacity: 0;
+        animation: scan 0.6s ease forwards 0.1s;
+      }
+      .accent-line {
+        opacity: 0;
+        animation: expandLine 0.8s ease forwards 1.0s;
+        transform-origin: left center;
+      }
+      .dot {
+        fill: #00d9ff;
+        opacity: 0;
+        animation: pulse 3s ease-in-out infinite;
+      }
+      .grid-line {
+        stroke: #00d9ff;
+        stroke-width: 0.3;
+        opacity: 0.06;
+      }
+      .corner-tl { opacity: 0; animation: fadePop 0.4s ease forwards 0.1s; }
+      .corner-tr { opacity: 0; animation: fadePop 0.4s ease forwards 0.2s; }
+      .corner-bl { opacity: 0; animation: fadePop 0.4s ease forwards 0.3s; }
+      .corner-br { opacity: 0; animation: fadePop 0.4s ease forwards 0.4s; }
+      .sub-text {
+        font-family: 'Inter', -apple-system, sans-serif;
+        font-size: 13px;
+        fill: #6e7681;
+        opacity: 0;
+        animation: fadeSlideUp 0.8s ease forwards 2.4s;
+      }
+
+      @keyframes fadeSlideUp {
+        from { opacity: 0; transform: translateY(12px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadePop {
+        from { opacity: 0; transform: scale(0.92); }
+        to   { opacity: 1; transform: scale(1); }
+      }
+      @keyframes expandLine {
+        from { opacity: 0; transform: scaleX(0); }
+        to   { opacity: 1; transform: scaleX(1); }
+      }
+      @keyframes scan {
+        from { opacity: 0.8; transform: translateY(0); }
+        to   { opacity: 0; transform: translateY(280px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.15; r: 2; }
+        50%       { opacity: 0.5;  r: 3; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bg)"/>
+
+  <!-- Grid -->
+  <line x1="0" y1="70"  x2="900" y2="70"  class="grid-line"/>
+  <line x1="0" y1="140" x2="900" y2="140" class="grid-line"/>
+  <line x1="0" y1="210" x2="900" y2="210" class="grid-line"/>
+  <line x1="150" y1="0" x2="150" y2="280" class="grid-line"/>
+  <line x1="300" y1="0" x2="300" y2="280" class="grid-line"/>
+  <line x1="450" y1="0" x2="450" y2="280" class="grid-line"/>
+  <line x1="600" y1="0" x2="600" y2="280" class="grid-line"/>
+  <line x1="750" y1="0" x2="750" y2="280" class="grid-line"/>
+
+  <!-- Corner brackets -->
+  <path d="M16,16 L16,36 M16,16 L36,16" stroke="#00d9ff" stroke-width="1.5" fill="none" class="corner-tl"/>
+  <path d="M884,16 L884,36 M884,16 L864,16" stroke="#00d9ff" stroke-width="1.5" fill="none" class="corner-tr"/>
+  <path d="M16,264 L16,244 M16,264 L36,264" stroke="#00d9ff" stroke-width="1.5" fill="none" class="corner-bl"/>
+  <path d="M884,264 L884,244 M884,264 L864,264" stroke="#00d9ff" stroke-width="1.5" fill="none" class="corner-br"/>
+
+  <!-- Scan line -->
+  <rect x="0" y="0" width="900" height="2" fill="url(#line)" class="scanline"/>
+
+  <!-- Floating dots -->
+  <circle cx="60"  cy="50"  r="2" class="dot" style="animation-delay:0.0s"/>
+  <circle cx="840" cy="80"  r="2" class="dot" style="animation-delay:0.5s"/>
+  <circle cx="70"  cy="220" r="2" class="dot" style="animation-delay:1.0s"/>
+  <circle cx="830" cy="200" r="2" class="dot" style="animation-delay:1.5s"/>
+  <circle cx="450" cy="30"  r="2" class="dot" style="animation-delay:0.8s"/>
+  <circle cx="200" cy="250" r="2" class="dot" style="animation-delay:1.2s"/>
+  <circle cx="700" cy="250" r="2" class="dot" style="animation-delay:0.3s"/>
+
+  <!-- Name -->
+  <text x="450" y="118" text-anchor="middle" class="name">Pedro Afonso</text>
+
+  <!-- Role -->
+  <text x="450" y="148" text-anchor="middle" class="role">ML Researcher · RL · Causal AI · Autonomous Agents</text>
+
+  <!-- Accent line -->
+  <rect x="175" y="160" width="550" height="1" fill="url(#line)" class="accent-line"/>
+
+  <!-- Badges -->
+  <rect x="90"  y="174" width="148" height="24" rx="4" fill="#00d9ff" fill-opacity="0.07" stroke="#00d9ff" stroke-width="0.8" class="badge-rect-1"/>
+  <text x="164" y="190" text-anchor="middle" class="badge badge-1">🥇 1st Place · CrewAI 2025</text>
+
+  <rect x="250" y="174" width="130" height="24" rx="4" fill="#00d9ff" fill-opacity="0.07" stroke="#00d9ff" stroke-width="0.8" class="badge-rect-2"/>
+  <text x="315" y="190" text-anchor="middle" class="badge badge-2">☁️ AWS ML Certified</text>
+
+  <rect x="392" y="174" width="126" height="24" rx="4" fill="#00d9ff" fill-opacity="0.07" stroke="#00d9ff" stroke-width="0.8" class="badge-rect-3"/>
+  <text x="455" y="190" text-anchor="middle" class="badge badge-3">⚡ NVIDIA Inception</text>
+
+  <rect x="530" y="174" width="140" height="24" rx="4" fill="#00d9ff" fill-opacity="0.07" stroke="#00d9ff" stroke-width="0.8" class="badge-rect-4"/>
+  <text x="600" y="190" text-anchor="middle" class="badge badge-4">🌱 Google for Startups</text>
+
+  <!-- Sub text -->
+  <text x="450" y="234" text-anchor="middle" class="sub-text">Building Veredictos · PaymentsLine · MIOSA — Campo Grande, Brazil</text>
+</svg>
