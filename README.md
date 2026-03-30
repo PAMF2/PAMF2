@@ -43,8 +43,6 @@ Leading AI at **[Veredictos](https://github.com/PAMF2/veredictos-vision)** — r
 |---------|-------|-------------|
 | [OSA](https://github.com/PAMF2/OSA) | Elixir · OTP · SQLite | Local-first AI orchestrator — PubSub, hot-reload skills, Rust NIFs |
 | [hackaton-claw](https://github.com/PAMF2/hackaton-claw) | Python · Claude | Dual-loop multi-agent scientific analysis system |
-| [insuranceOS](https://github.com/PAMF2/insuranceOS) | Python · FastAPI · Claude | Multi-agent insurance platform via WhatsApp |
-| [financeagent](https://github.com/PAMF2/financeagent) | Python · FastAPI · Gemini | AI-powered financial analysis and reporting |
 
 **Security & Research**
 
