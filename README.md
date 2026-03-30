@@ -22,11 +22,11 @@ Building **[Veredictos](https://www.veredictos.com/)** (retinal AI, SUS pilots),
 
 | | |
 |---|---|
-| 🥇 | **1st Place globally** — CrewAI Fall 2025 Agentic AI Challenge (DiabetesEye) · only Brazilian team in the top 10 |
-| ☁️ | **AWS Machine Learning Specialty Certified** (2024) |
-| ⚛️ | **Finalist** — Brazilian Nuclear Olympiad 2025 (IRRAD[IA]) |
-| 🏦 | **Participant** — Arc × Circle Hackathon 2026 (BaaS Arc) |
-| 🤖 | **MIOSA**: 7k beta downloads in 3 days on word of mouth |
+| **1st Place globally** — CrewAI Fall 2025 Agentic AI Challenge (DiabetesEye) · only Brazilian team in the top 10 |
+| ️ | **AWS Machine Learning Specialty Certified** (2024) |
+| ️ | **Finalist** — Brazilian Nuclear Olympiad 2025 (IRRAD[IA]) |
+| **Participant** — Arc × Circle Hackathon 2026 (BaaS Arc) |
+| **MIOSA**: 7k beta downloads in 3 days on word of mouth |
 
 ---
 
@@ -34,8 +34,8 @@ Building **[Veredictos](https://www.veredictos.com/)** (retinal AI, SUS pilots),
 
 | | Project | What |
 |---|---------|------|
-| 🏥 | **[Veredictos](https://www.veredictos.com/)** | Retinal AI (DR 94.1% sens · GL 94.3% · HR 95.3% · GATE 1 ✓) — pilots with Prefeitura RJ (SUS) + Centro Carioca do Olho · NVIDIA Inception · Google for Startups |
-| 🤖 | **[MIOSA](https://miosa.ai)** / **[OSA](https://github.com/PAMF2/OSA)** | Self-learning agent platform (MIOSA) + open-source local orchestrator (OSA) — Elixir/OTP |
+| **[Veredictos](https://www.veredictos.com/)** | Retinal AI (DR 94.1% sens · GL 94.3% · HR 95.3% · GATE 1 ) — pilots with Prefeitura RJ (SUS) + Centro Carioca do Olho · NVIDIA Inception · Google for Startups |
+| **[MIOSA](https://miosa.ai)** / **[OSA](https://github.com/PAMF2/OSA)** | Self-learning agent platform (MIOSA) + open-source local orchestrator (OSA) — Elixir/OTP |
 
 ---
 
