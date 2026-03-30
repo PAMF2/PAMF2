@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00d9ff&height=130&section=header&text=Pedro%20Afonso&fontSize=36&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00d9ff&height=130&section=header&text=Pedro%20Afonso&fontSize=38&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=ML+Engineer+%40+Veredictos;Medical+AI+%7C+Retinal+Screening+%26+Payments;Multi-Agent+Systems+%7C+LLM+Security;Elixir+%2F+OTP+%7C+Rust+%7C+Python)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=620&lines=ML+Researcher+%C2%B7+RL+%C2%B7+Causal+AI+%C2%B7+Autonomous+Agents;1st+Place+%E2%80%94+CrewAI+Agentic+AI+Challenge+2025+%F0%9F%8F%86;Co-Founder+%40+MIOSA+%C2%B7+Senior+ML+%40+Lunivate;Retinal+AI+%C2%B7+Banking+Agents+%C2%B7+LLM+Security)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=PAMF2&color=00d9ff&style=flat&label=profile+views)
 
@@ -10,9 +10,21 @@
 
 ---
 
-Building AI systems at the frontier of **medical diagnostics**, **agent infrastructure**, and **LLM security**.
+I build systems that **learn to act, not just predict** — objective-driven learning via execution feedback, multi-agent architectures that reason through explicit intermediate state, and causally-aware memory that scales linearly. I ship end-to-end: reward pipeline design, inference-time planning, constrained report generation, production deployment in resource-constrained environments.
 
-Leading AI at **[Veredictos](https://github.com/PAMF2/veredictos-vision)** — retinal screening platform for diabetic retinopathy and glaucoma grading, now expanding into **payments and clinical workflows**.
+**Co-Founder & Lead AI Engineer** at [MIOSA](https://github.com/PAMF2) · **Senior AI/ML Engineer** at Lunivate · consulting since age 15.
+
+---
+
+### Achievements
+
+| | |
+|---|---|
+| 🥇 | **1st Place globally** — CrewAI Fall 2025 Agentic AI Challenge (DiabetesEye) · only Brazilian team in the top 10 |
+| ☁️ | **AWS Machine Learning Specialty Certified** (2024) |
+| ⚛️ | **Finalist** — Brazilian Nuclear Olympiad 2025 (IRRAD[IA]) |
+| 🏦 | **Participant** — Arc × Circle Hackathon 2026 (BaaS Arc) |
+| 🤖 | **MIOSA**: 7k beta downloads in 3 days on word of mouth |
 
 ---
 
@@ -20,37 +32,38 @@ Leading AI at **[Veredictos](https://github.com/PAMF2/veredictos-vision)** — r
 
 | | Project | What |
 |---|---------|------|
-| 🏥 | **Veredictos** | Payments infrastructure + retinal AI pipeline |
-| 🤖 | **[OSA](https://github.com/PAMF2/OSA)** | Production local AI agent — Elixir/OTP, hot-reload skills, SQLite |
-| 🔬 | **[hackaton-claw](https://github.com/PAMF2/hackaton-claw)** | Dual-loop autonomous scientific analysis (K-Dense + CUA) |
-| 🦀 | **[cyber-os](https://github.com/PAMF2/cyber-os)** | Systems-level OS work in Rust |
+| 🏥 | **[Veredictos](https://github.com/PAMF2/veredictos-vision)** | Payments infrastructure + retinal AI — pilots with Prefeitura RJ (SUS) and Centro Carioca do Olho |
+| 🤖 | **[OSA](https://github.com/PAMF2/OSA)** | Local-first AI orchestrator — Elixir/OTP, hot-reload skills, world-model loops |
+| 🦀 | **[cyber-os](https://github.com/PAMF2/cyber-os)** | Systems OS work in Rust |
 
 ---
 
-### Projects
+### Research & Projects
 
 **Medical AI**
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [veredictos-vision](https://github.com/PAMF2/veredictos-vision) | Python · PyTorch · MedGemma | Retinal AI — TransUNet, EfficientNet-B3, UNet++, clinical report synthesis |
-| [DiabetesEye](https://github.com/PAMF2/DiabetesEye) | Python · CrewAI · OpenCV | Diabetic retinopathy screening with multi-agent grading |
-| [irrad-IA-](https://github.com/PAMF2/irrad-IA-) | Python | AI-assisted radiation therapy planning |
+| [veredictos-vision](https://github.com/PAMF2/veredictos-vision) | PyTorch · MedGemma | TransUNet + EfficientNet-B3 + UNet++ pipeline — DR 96.2%, QWK 0.9793, glaucoma Dice 0.9551 |
+| [DiabetesEye](https://github.com/PAMF2/DiabetesEye) | CrewAI · Gemini · OpenCV | 1st place global — ETDRS grading, 6/12/24-month progression risk, offline, under 30s |
+| [irrad-IA-](https://github.com/PAMF2/irrad-IA-) | YOLOv8 | AI food irradiation control — Cobalt-60 dose optimization, safety loop, industrial deployment |
 
-**Agent Infrastructure**
-
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [OSA](https://github.com/PAMF2/OSA) | Elixir · OTP · SQLite | Local-first AI orchestrator — PubSub, hot-reload skills, Rust NIFs |
-| [hackaton-claw](https://github.com/PAMF2/hackaton-claw) | Python · Claude | Dual-loop multi-agent scientific analysis system |
-
-**Security & Research**
+**RL & Research**
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [asp](https://github.com/PAMF2/asp) | Python | Adversarial Semantic Protection — LLM prompt injection detection |
-| [cyber-os](https://github.com/PAMF2/cyber-os) | Rust | Systems-level OS research |
-| [AEG](https://github.com/PAMF2/AEG) | Elixir | Adversarial example generation framework |
+| [codeforge-asm](https://github.com/PAMF2/codeforgefinal) | PyTorch · TRL · GRPO | Qwen3.5-2B trained on pure execution signal to write x86-64 NASM — MCTS at inference time |
+| [hackaton-claw](https://github.com/PAMF2/hackaton-claw) | Python · Claude | Dual-loop autonomous scientific analysis (K-Dense strategic + tactical) |
+| MCU | Python | Causal memory O(N) with ε-causal consistency — proved M = O(D log N) via instrumental variables |
+
+**Agent Infrastructure & Systems**
+
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [AEG](https://github.com/PAMF2/AEG) | Elixir · OTP | Production agent runtime — guard → plan → memory → model → eval, RL layer, world-model rollouts |
+| [OSA](https://github.com/PAMF2/OSA) | Elixir · OTP · SQLite | Local AI orchestrator — PubSub, hot-reload skills, Rust NIFs, open-source OpenClaw alternative |
+| [ARC / BaaS Arc](https://github.com/PAMF2/ARC) | Python · Gemini | 4-division autonomous banking syndicate — 110 production functions, DeFi, fraud detection, RTP/FedNow |
+| [asp](https://github.com/PAMF2/asp) | Python | Adversarial Semantic Protection — LLM prompt injection detection with 3D Gaussian probability fields |
 
 ---
 
@@ -58,9 +71,14 @@ Leading AI at **[Veredictos](https://github.com/PAMF2/veredictos-vision)** — r
 
 <div align="center">
 
-[![Stack](https://skillicons.dev/icons?i=python,pytorch,fastapi,elixir,rust,typescript,opencv)](https://skillicons.dev)
+[![Core](https://skillicons.dev/icons?i=python,pytorch,cpp,elixir,rust,typescript,aws,docker)](https://skillicons.dev)
 
 </div>
+
+**RL & Training:** GRPO · PPO · MCTS · TRL · LoRA/QLoRA · reward modeling · DQN  
+**Vision & Medical:** YOLOv8 · OpenCV · TransUNet · EfficientNet-B3 · UNet++ · MedGemma  
+**Agents:** CrewAI · LangChain · LlamaIndex · Elixir/OTP · MoE · RAG · world-model loops  
+**Infra:** AWS · Docker · Kubernetes · FastAPI · PostgreSQL · Redis · Vector DBs · MLOps
 
 ---
 
