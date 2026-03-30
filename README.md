@@ -34,7 +34,7 @@ Building **[Veredictos](https://www.veredictos.com/)** (retinal AI, SUS pilots),
 
 | | Project | What |
 |---|---------|------|
-| 🏥 | **[Veredictos](https://www.veredictos.com/)** | Retinal AI — pilots with Prefeitura RJ (SUS) and Centro Carioca do Olho |
+| 🏥 | **[Veredictos](https://www.veredictos.com/)** | Retinal AI (DR 94.1% sens · GL 94.3% · HR 95.3% · GATE 1 ✓) — pilots with Prefeitura RJ (SUS) + Centro Carioca do Olho · NVIDIA Inception · Google for Startups |
 | 🤖 | **[MIOSA](https://miosa.ai)** / **[OSA](https://github.com/PAMF2/OSA)** | Self-learning agent platform (MIOSA) + open-source local orchestrator (OSA) — Elixir/OTP |
 
 ---
@@ -45,7 +45,7 @@ Building **[Veredictos](https://www.veredictos.com/)** (retinal AI, SUS pilots),
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [veredictos-vision](https://www.veredictos.com/) | PyTorch · MedGemma | TransUNet + EfficientNet-B3 + UNet++ pipeline — DR 96.2%, QWK 0.9793, glaucoma Dice 0.9551 |
+| [Veredictos](https://www.veredictos.com/) | PyTorch · ViT · MedGemma | 86.8M param model — DR sens. 94.1%, GL sens. 94.3%, HR sens. 95.3% · Kappa 0.775 · GATE 1 PASS · 24K imgs / 18 datasets · NVIDIA Inception · Google for Startups · SMS-Rio / CCO-SPDM |
 | [DiabetesEye](https://github.com/PAMF2/DiabetesEye) | CrewAI · Gemini · OpenCV | 1st place global — ETDRS grading, 6/12/24-month progression risk, offline, under 30s |
 | [irrad-IA-](https://github.com/PAMF2/irrad-IA-) | YOLOv8 | AI food irradiation control — Cobalt-60 dose optimization, safety loop, industrial deployment |
 
