@@ -32,9 +32,8 @@ I build systems that **learn to act, not just predict** — objective-driven lea
 
 | | Project | What |
 |---|---------|------|
-| 🏥 | **[Veredictos](https://github.com/PAMF2/veredictos-vision)** | Payments infrastructure + retinal AI — pilots with Prefeitura RJ (SUS) and Centro Carioca do Olho |
+| 🏥 | **[Veredictos](https://visionver1.vercel.app)** | Payments infrastructure + retinal AI — pilots with Prefeitura RJ (SUS) and Centro Carioca do Olho |
 | 🤖 | **[OSA](https://github.com/PAMF2/OSA)** | Local-first AI orchestrator — Elixir/OTP, hot-reload skills, world-model loops |
-| 🦀 | **[cyber-os](https://github.com/PAMF2/cyber-os)** | Systems OS work in Rust |
 
 ---
 
@@ -44,7 +43,7 @@ I build systems that **learn to act, not just predict** — objective-driven lea
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [veredictos-vision](https://github.com/PAMF2/veredictos-vision) | PyTorch · MedGemma | TransUNet + EfficientNet-B3 + UNet++ pipeline — DR 96.2%, QWK 0.9793, glaucoma Dice 0.9551 |
+| [veredictos-vision](https://visionver1.vercel.app) | PyTorch · MedGemma | TransUNet + EfficientNet-B3 + UNet++ pipeline — DR 96.2%, QWK 0.9793, glaucoma Dice 0.9551 |
 | [DiabetesEye](https://github.com/PAMF2/DiabetesEye) | CrewAI · Gemini · OpenCV | 1st place global — ETDRS grading, 6/12/24-month progression risk, offline, under 30s |
 | [irrad-IA-](https://github.com/PAMF2/irrad-IA-) | YOLOv8 | AI food irradiation control — Cobalt-60 dose optimization, safety loop, industrial deployment |
 
